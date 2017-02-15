@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <remote  name="SonyM4"
+             fetch="https://github.com/SonyM4/" />
+
+    <project path="vendor/nxp" name="vendor_nxp" groups="device" remote="SonyM4" revision="android-7.1.1" />
+    <project path="vendor/qcom" name="vendor_qcom" groups="device" remote="SonyM4" revision="android-7.1.1" />
+    <project path="vendor/sony" name="vendor_sony" groups="device" remote="SonyM4" revision="android-7.1.1" />
+
+</manifest>
