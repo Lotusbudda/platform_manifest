@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <remote  name="SonyM4"
+             fetch="https://github.com/SonyM4/" />
+
+    <project path="kernel/sony/msm" name="kernel" groups="device" remote="SonyM4" revision="..." />
+
+    <project path="device/sony/sepolicy" name="device_sony_sepolicy" groups="device" remote="SonyM4" revision="android-7.1.1" />
+    <project path="device/sony/common" name="device_sony_common" groups="device" remote="SonyM4" revision="android-7.1.1" />
+
+    <project path="device/sony/kanuti" name="device_sony_kanuti" groups="device" remote="SonyM4" revision="android-7.1.1" />
+    <project path="device/sony/tulip" name="device_sony_tulip" groups="device" remote="SonyM4" revision="android-7.1.1" />
+
