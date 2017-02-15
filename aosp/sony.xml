@@ -12,3 +12,4 @@
     <project path="device/sony/kanuti" name="device_sony_kanuti" groups="device" remote="SonyM4" revision="android-7.1.1" />
     <project path="device/sony/tulip" name="device_sony_tulip" groups="device" remote="SonyM4" revision="android-7.1.1" />
 
+</manifest>
