@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <remote  name="SonyM4"
+             fetch="https://github.com/SonyM4/" />
+
+    <project path="build" name="platform_build" groups="pdk" remote="SonyM4" revision="android-7.1.1" >
+        <copyfile src="core/root.mk" dest="Makefile" />
+    </project>
+
+    <project path="frameworks/base" name="platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="SonyM4" revision="android-7.1.1" />
+
+    <project path="hardware/qcom/audio" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio" remote="SonyM4" revision="android-7.1.1" />
+    <project path="hardware/qcom/bt" name="platform_hardware_qcom_bt" groups="qcom" remote="SonyM4" revision="android-7.1" />
+    <project path="hardware/qcom/display" name="platform_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="SonyM4" revision="android-7.1.1" />
+    <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" groups="qcom,qcom_gps" remote="SonyM4" revision="android-7.1.1" />
+    <project path="hardware/qcom/media" name="platform_hardware_qcom_media" groups="qcom" remote="SonyM4" revision="android-7.1.1" />
+
+    <project path="packages/apps/Settings" name="platform_packages_apps_Settings" groups="pdk-fs" remote="SonyM4" revision="android-7.1.1" />
+
+    <project path="system/core" name="platform_system_core" groups="pdk" remote="SonyM4" revision="android-7.1.1" />
+
+</manifest>

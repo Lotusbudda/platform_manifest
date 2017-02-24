@@ -1,5 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<!--<?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+
+    <remove-project name="platform/build" />
 
     <remove-project name="device/asus/fugu" />
     <remove-project name="device/asus/fugu-kernel" />
@@ -21,6 +23,9 @@
     <remove-project name="device/linaro/hikey-kernel" />
     <remove-project name="device/moto/shamu" />
     <remove-project name="device/moto/shamu-kernel" />
+
+    <remove-project name="platform/frameworks/base" />
+
     <remove-project name="platform/hardware/intel/audio_media" />
     <remove-project name="platform/hardware/intel/bootstub" />
     <remove-project name="platform/hardware/intel/common/bd_prov" />
@@ -44,4 +49,20 @@
     <remove-project name="platform/hardware/ti/omap4-aah" />
     <remove-project name="platform/hardware/ti/omap4xxx" />
 
-</manifest>
+    <remove-project name="platform/packages/apps/Settings" />
+
+    <remove-project name="platform/tools/base" />
+    <remove-project name="platform/tools/build" />
+    <remove-project name="platform/tools/external/fat32lib" />
+    <remove-project name="platform/tools/external/gradle" />
+    <remove-project name="platform/tools/idea" />
+    <remove-project name="platform/tools/loganalysis" />
+    <remove-project name="platform/tools/motodev" />
+    <remove-project name="platform/tools/studio/cloud" />
+    <remove-project name="platform/tools/swt" />
+    <remove-project name="platform/tools/test/connectivity" />
+    <remove-project name="platform/tools/tradefederation" />
+
+    <remove-project name="platform/system/core" />
+
+</manifest>-->
