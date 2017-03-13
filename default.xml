@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
   <remote  name="aosp"
            fetch=".." />
-  <default revision="refs/tags/android-7.1.1_r22"
+  <default revision="refs/tags/android-7.1.1_r28"
            remote="aosp"
            sync-j="4" />
-
   <project path="build" name="platform/build" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
@@ -542,5 +540,4 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/test/connectivity" name="platform/tools/test/connectivity" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
-
 </manifest>
