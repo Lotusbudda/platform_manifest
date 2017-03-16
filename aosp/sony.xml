@@ -13,4 +13,14 @@
     <project path="device/sony/kanuti" name="device_sony_kanuti" groups="device" remote="SonyM4" revision="android-7.1.1" />
     <project path="device/sony/tulip" name="device_sony_tulip" groups="device" remote="SonyM4" revision="android-7.1.1" />
 
+    <project path="hardware/sony/dataservices" name="platform_hardware_sony_dataservices" groups="device" remote="SonyM4" revision="master" />
+    <project path="hardware/sony/init" name="platform_hardware_sony_init" groups="device" remote="SonyM4" revision="android-7.1.1" />
+    <project path="hardware/sony/macaddrsetup" name="platform_hardware_sony_macaddrsetup" groups="device" remote="SonyM4" revision="master" />
+    <project path="hardware/sony/thermanager" name="platform_hardware_sony_thermanager" groups="device" remote="SonyM4" revision="master" />
+    <project path="hardware/sony/timekeep" name="platform_hardware_sony_timekeep" groups="device" remote="SonyM4" revision="master" />
+
+    <project path="vendor/nxp" name="vendor_nxp" groups="device" remote="SonyM4" revision="android-7.1.1" />
+    <project path="vendor/qcom" name="vendor_qcom" groups="device" remote="SonyM4" revision="android-7.1.1" />
+    <project path="vendor/sony" name="vendor_sony" groups="device" remote="SonyM4" revision="android-7.1.1" />
+
 </manifest>
