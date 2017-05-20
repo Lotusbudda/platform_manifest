@@ -5,13 +5,19 @@
 ```bash
 # Make a directory where Repo will be stored and add it to the path
 $ mkdir ~/bin
-$ PATH=~/bin:$PATH
-
 # Download Repo itself
 $ curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
-
 # Make Repo executable
 $ chmod a+x ~/bin/repo
+
+# Open the bashrc file included in the repo tool
+$ sudo nano ~/.bashrc
+
+# Paste the following code to a new line at the very bottom of the bashrc file
+export PATH=~/bin:$PATH
+
+# Reload bash variables to include the new path
+$ source ~/.bashrc
 ```
 
 ### Initializing Repo ###
@@ -19,17 +25,17 @@ $ chmod a+x ~/bin/repo
 ```bash
 # Create a directory for the source files
 # This can be located anywhere (as long as the fs is case-sensitive)
-$ mkdir android
-$ cd android
+$ mkdir ~/android
+$ cd ~/android
 
 # Install Repo in the created directory
 # Use a real name/email combination, if you intend to submit patches
-$ repo init -u https://github.com/SonyM4/platform_manifest -b android-7.1.1
+$ repo init -u https://github.com/SonyM4/platform_manifest -b android-7.1.2
 ```
 
 ### Downloading the source tree ###
 
-The downloaded data is around 20 GB, and for a successful build you need 100 GB free hard disk space.
+The downloaded data is around 40 GB, and for a successful build you need 100 GB free hard disk space.
 Depending on your Internet connection, it can take quite a long time to download the source code.
 When the download has finished you have the basic AOSP source code on your computer.
 
