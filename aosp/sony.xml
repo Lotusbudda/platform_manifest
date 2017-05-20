@@ -9,20 +9,20 @@
     <project path="kernel/sony/msm" name="kernel" groups="device" remote="SonyM4" revision="aosp/LA.UM.5.5.r1_kanuti" />
     <project path="device/sony/common-kernel" name="device_sony_common-kernel" groups="device" remote="SonyM4" revision="aosp/LA.UM.5.5.r1" />
 
-    <project path="device/sony/sepolicy" name="device_sony_sepolicy" groups="device" remote="SonyM4" revision="master" />
-    <project path="device/sony/common" name="device_sony_common" groups="device" remote="SonyM4" revision="master" />
+    <project path="device/sony/sepolicy" name="device_sony_sepolicy" groups="device" remote="SonyM4" revision="android-7.1" />
+    <project path="device/sony/common" name="device_sony_common" groups="device" remote="SonyM4" revision="android-7.1" />
 
-    <project path="device/sony/kanuti" name="device_sony_kanuti" groups="device" remote="SonyM4" revision="master" />
-    <project path="device/sony/tulip" name="device_sony_tulip" groups="device" remote="SonyM4" revision="master" />
+    <project path="device/sony/kanuti" name="device_sony_kanuti" groups="device" remote="SonyM4" revision="android-7.1" />
+    <project path="device/sony/tulip" name="device_sony_tulip" groups="device" remote="SonyM4" revision="android-7.1" />
 
     <project path="hardware/sony/dataservices" name="platform_hardware_sony_dataservices" groups="device" remote="SonyM4" revision="master" />
-    <project path="hardware/sony/init" name="platform_hardware_sony_init" groups="device" remote="SonyM4" revision="master" />
+    <project path="hardware/sony/init" name="platform_hardware_sony_init" groups="device" remote="SonyM4" revision="android-7.1" />
     <project path="hardware/sony/macaddrsetup" name="platform_hardware_sony_macaddrsetup" groups="device" remote="SonyM4" revision="master" />
     <project path="hardware/sony/thermanager" name="platform_hardware_sony_thermanager" groups="device" remote="SonyM4" revision="master" />
     <project path="hardware/sony/timekeep" name="platform_hardware_sony_timekeep" groups="device" remote="SonyM4" revision="master" />
 
-    <project path="vendor/qcom" name="vendor_qcom" groups="device" remote="SonyM4" revision="master" /><!--3.10 blobs-->
-    <project path="vendor/sony" name="vendor_sony" groups="device" remote="SonyM4" revision="master" /><!--3.10 blobs-->
+    <project path="vendor/qcom" name="vendor_qcom" groups="device" remote="SonyM4" revision="android-7.1" /><!--3.10 blobs-->
+    <project path="vendor/sony" name="vendor_sony" groups="device" remote="SonyM4" revision="android-7.1" /><!--3.10 blobs-->
     <project path="vendor/nxp" name="vendor_nxp" groups="device" remote="SonyM4" revision="master" />
     <project path="vendor/nxp/NXPNFCC_FW" name="NXPNFCC_FW" groups="device" remote="NXP" revision="master" />
 
