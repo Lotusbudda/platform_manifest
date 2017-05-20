@@ -8,6 +8,8 @@
         <copyfile src="core/root.mk" dest="Makefile" />
     </project>
 
+    <project path="bootable/recovery" name="platform_bootable_recovery" groups="pdk" remote="SonyM4" revision="master" />
+
     <project path="external/toybox" name="platform_external_toybox" groups="pdk" remote="SonyM4" revision="n-mr2.1" />
 
     <project path="frameworks/av" name="platform_frameworks_av" groups="pdk" remote="SonyM4" revision="n-mr2.1" />
