@@ -1,38 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
     <remove-project name="platform/bootable/recovery" />
-
     <remove-project name="platform/build" />
-
+    <remove-project name="platform/build/soong" />
+    <remove-project name="platform/bionic" />
     <remove-project name="device/asus/fugu" />
     <remove-project name="device/asus/fugu-kernel" />
-    <remove-project name="device/google/accessory/arduino" />
-    <remove-project name="device/google/accessory/demokit" />
     <remove-project name="device/google/atv" />
     <remove-project name="device/google/dragon" />
     <remove-project name="device/google/dragon-kernel" />
     <remove-project name="device/google/marlin" />
     <remove-project name="device/google/marlin-kernel" />
-    <remove-project name="device/htc/flounder" />
-    <remove-project name="device/htc/flounder-kernel" />
     <remove-project name="device/huawei/angler" />
     <remove-project name="device/huawei/angler-kernel" />
-    <remove-project name="device/intel/edison" />
     <remove-project name="device/lge/bullhead" />
     <remove-project name="device/lge/bullhead-kernel" />
     <remove-project name="device/linaro/hikey" />
-    <remove-project name="device/linaro/hikey-kernel" />
-    <remove-project name="device/moto/shamu" />
-    <remove-project name="device/moto/shamu-kernel" />
-
+    <remove-project name="device/linaro/hikey-kernel" clone-depth="1" />
+    <remove-project name="platform/external/tinycompress" />
     <remove-project name="platform/external/toybox" />
-
     <remove-project name="platform/frameworks/av" />
     <remove-project name="platform/frameworks/base" />
-
     <remove-project name="platform/hardware/akm" />
-    <remove-project name="platform/hardware/bsp/intel" />
     <remove-project name="platform/hardware/intel/audio_media" />
     <remove-project name="platform/hardware/intel/bootstub" />
     <remove-project name="platform/hardware/intel/common/bd_prov" />
@@ -51,23 +40,18 @@
     <remove-project name="platform/hardware/marvell/bt" />
     <remove-project name="platform/hardware/qcom/audio" />
     <remove-project name="platform/hardware/qcom/bt" />
-    <!--<remove-project name="platform/hardware/qcom/camera" />-->
     <remove-project name="platform/hardware/qcom/display" />
-    <remove-project name="platform/hardware/qcom/gps" />
     <remove-project name="platform/hardware/qcom/keymaster" />
     <remove-project name="platform/hardware/qcom/media" />
+    <remove-project name="platform/hardware/qcom/gps" />
     <remove-project name="platform/hardware/qcom/msm8960" />
     <remove-project name="platform/hardware/qcom/msm8994" />
     <remove-project name="platform/hardware/qcom/msm8996" />
     <remove-project name="platform/hardware/qcom/msm8x26" />
     <remove-project name="platform/hardware/qcom/msm8x27" />
     <remove-project name="platform/hardware/qcom/msm8x84" />
-    <remove-project name="platform/hardware/ti/omap3" />
-    <remove-project name="platform/hardware/ti/omap4-aah" />
-    <remove-project name="platform/hardware/ti/omap4xxx" />
-
+    <remove-project name="platform/hardware/qcom/msm8x09" />
     <remove-project name="platform/packages/apps/Browser2" />
-    <remove-project name="platform/packages/apps/Calculator" />
     <remove-project name="platform/packages/apps/Calendar" />
     <remove-project name="platform/packages/apps/Contacts" />
     <remove-project name="platform/packages/apps/DeskClock" />
@@ -87,25 +71,10 @@
     <remove-project name="platform/packages/apps/QuickSearchBox" />
     <remove-project name="platform/packages/apps/Settings" />
     <remove-project name="platform/packages/apps/Tag" />
-
     <remove-project name="platform/packages/inputmethods/LatinIME" />
     <remove-project name="platform/packages/inputmethods/OpenWnn" />
     <remove-project name="platform/packages/providers/DownloadProvider" />
     <remove-project name="platform/packages/providers/MediaProvider" />
-
-    <remove-project name="platform/tools/adt/idea" />
-    <remove-project name="platform/tools/base" />
-    <remove-project name="platform/tools/build" />
-    <remove-project name="platform/tools/external/fat32lib" />
-    <remove-project name="platform/tools/external/gradle" />
-    <remove-project name="platform/tools/idea" />
-    <remove-project name="platform/tools/loganalysis" />
-    <remove-project name="platform/tools/motodev" />
-    <remove-project name="platform/tools/studio/cloud" />
-    <remove-project name="platform/tools/swt" />
-    <remove-project name="platform/tools/test/connectivity" />
-    <remove-project name="platform/tools/tradefederation" />
-
+    <remove-project name="platform/packages/services/Telephony" />
     <remove-project name="platform/system/core" />
-
 </manifest>

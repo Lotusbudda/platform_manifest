@@ -30,7 +30,7 @@ $ cd ~/android
 
 # Install Repo in the created directory
 # Use a real name/email combination, if you intend to submit patches
-$ repo init -u https://github.com/SonyM4/platform_manifest -b android-7.1.2
+$ repo init -u https://github.com/SonyM4/platform_manifest -b android-8.0
 ```
 
 ### Downloading the source tree ###
