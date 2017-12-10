@@ -8,20 +8,16 @@
 
     <project path="kernel/sony/msm" name="kernel" groups="device" remote="SonyM4" revision="aosp/LA.UM.5.7.r1" />
 
-    <project path="device/sony/common-headers" name="device_sony_common-headers" groups="device" remote="SonyM4" revision="aosp/LA.UM.5.7.r1" />
-    <project path="device/sony/common-kernel" name="device_sony_common-kernel" groups="device" remote="SonyM4" revision="aosp/LA.UM.5.7.r1" />
+    <!--<project path="device/sony/common-headers" name="device_sony_common-headers" groups="device" remote="SonyM4" revision="aosp/LA.UM.5.7.r1" />
+    <project path="device/sony/common-kernel" name="device_sony_common-kernel" groups="device" remote="SonyM4" revision="aosp/LA.UM.5.7.r1" />-->
 
-    <project path="device/sony/sepolicy" name="device_sony_sepolicy" groups="device" remote="SonyM4" revision="android-8.0" />
-    <project path="device/sony/common" name="device_sony_common" groups="device" remote="SonyM4" revision="android-8.0" />
-
-    <!--msm8939-->
-    <project path="device/sony/kanuti" name="device_sony_kanuti" groups="device" remote="SonyM4" revision="android-8.0" />
-    <project path="device/sony/tulip" name="device_sony_tulip" groups="device" remote="SonyM4" revision="android-8.0" />
+    <project path="device/sony/sepolicy" name="device_sony_sepolicy" groups="device" remote="SonyM4" revision="android-8.1" />
+    <project path="device/sony/common" name="device_sony_common" groups="device" remote="SonyM4" revision="android-8.1" />
 
     <!--msm8956-->
-    <project path="device/sony/loire" name="device_sony_loire" groups="device" remote="SonyM4" revision="android-8.0" />
-    <project path="device/sony/kugo" name="device_sony_kugo" groups="device" remote="SonyM4" revision="android-8.0" />
-    <project path="device/sony/suzu" name="device_sony_suzu" groups="device" remote="SonyM4" revision="android-8.0" />
+    <project path="device/sony/loire" name="device_sony_loire" groups="device" remote="SonyM4" revision="android-8.1" />
+    <project path="device/sony/kugo" name="device_sony_kugo" groups="device" remote="SonyM4" revision="android-8.1" />
+    <project path="device/sony/suzu" name="device_sony_suzu" groups="device" remote="SonyM4" revision="android-8.1" />
 
     <project path="hardware/qcom/camera" name="platform_hardware_qcom_camera" groups="qcom" remote="SonyM4" revision="aosp/LA.UM.5.7.r1" />
     <project path="hardware/qcom/dataservices" name="platform_hardware_sony_dataservices" groups="device" remote="SonyM4" revision="master" />
@@ -29,15 +25,16 @@
     <project path="hardware/qcom/location" name="platform_hardware_qcom_location" groups="device" remote="SonyM4" revision="master" />
 
     <project path="hardware/sony/fingerprint" name="platform_hardware_sony_fingerprint" groups="device" remote="SonyM4" revision="master" />
-    <!--<project path="hardware/sony/init" name="platform_hardware_sony_init" groups="device" remote="SonyM4" revision="android-8.0" />-->
+    <project path="hardware/sony/init" name="platform_hardware_sony_init" groups="device" remote="SonyM4" revision="master" />
     <project path="hardware/sony/macaddrsetup" name="platform_hardware_sony_macaddrsetup" groups="device" remote="SonyM4" revision="master" />
     <project path="hardware/sony/thermanager" name="platform_hardware_sony_thermanager" groups="device" remote="SonyM4" revision="master" />
     <project path="hardware/sony/timekeep" name="platform_hardware_sony_timekeep" groups="device" remote="SonyM4" revision="master" />
 
+    <project path="packages/apps/ExtendedSettings" name="platform_packages_apps_ExtendedSettings" groups="device" remote="SonyM4" revision="master" />
     <project path="packages/apps/FMRadio" name="platform_packages_apps_FMRadio" groups="device" remote="SonyM4" revision="master" />
 
-    <!--<project path="vendor/qcom" name="vendor_qcom" groups="device" remote="SonyM4" revision="android-8.0" /> 3.10 blobs-->
-    <!--project path="vendor/sony" name="vendor_sony" groups="device" remote="SonyM4" revision="android-8.0" /> 3.10 blobs-->
+    <!--<project path="vendor/qcom" name="vendor_qcom" groups="device" remote="SonyM4" revision="android-8.1" /> 3.10 blobs-->
+    <!--project path="vendor/sony" name="vendor_sony" groups="device" remote="SonyM4" revision="android-8.1" /> 3.10 blobs-->
 
     <project path="vendor/brodacom/wlan" name="vendor_broadcom_wlan" groups="device" remote="SonyM4" revision="master" />
     <project path="vendor/nxp" name="vendor_nxp" groups="device" remote="SonyM4" revision="master" />
