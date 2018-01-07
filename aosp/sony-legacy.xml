@@ -10,6 +10,9 @@
     <!--legacy common for 3.10 kernel-->
     <project path="device/sony/common-legacy" name="device_sony_common-legacy" groups="device" remote="SonyM4" revision="android-8.1" />
 
+    <!--TWRP configuration-->
+    <project path="device/sony/common-twrp" name="device_sony_common-twrp" groups="device" remote="SonyM4" revision="master" />
+
     <!--msm8939 legacy-->
     <project path="device/sony/kanuti" name="device_sony_kanuti" groups="device" remote="SonyM4" revision="android-8.1" />
     <project path="device/sony/tulip" name="device_sony_tulip" groups="device" remote="SonyM4" revision="android-8.1" />
