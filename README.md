@@ -41,7 +41,7 @@ When the download has finished you have the basic AOSP source code on your compu
 
 ```bash
 # Let Repo take care of all the hard work
-$ repo sync
+$ repo sync -j8 --current-branch --no-clone-bundle --no-tags
 ```
 
 ## Building ##
