@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <remote  name="RiseOS"
+             fetch="https://github.com/RiseOS/" />
+
+    <project path="hardware/qcom/audio-caf" name="platform_hardware_qcom_audio-caf" groups="qcom,qcom_audio,pdk" remote="RiseOS" revision="android-8.1" />
+    <project path="hardware/qcom/display-caf" name="platform_hardware_qcom_display-caf" groups="pdk,qcom,qcom_display" remote="RiseOS" revision="android-8.1" />
+    <project path="hardware/qcom/gps-caf" name="platform_hardware_qcom_gps-caf" groups="qcom,qcom_gps,pdk" remote="RiseOS" revision="android-8.1" />
+    <project path="hardware/qcom/media-caf" name="platform_hardware_qcom_media-caf" groups="qcom,pdk" remote="RiseOS" revision="android-8.1" />
+
+</manifest>

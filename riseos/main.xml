@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <!-- Remove unused AOSP projects -->
+    <include name="riseos/remove.xml" />
+
+    <!-- Include forked AOSP projects -->
+    <include name="riseos/riseos.xml" />
+
+    <!-- Include Rise OS specific projects -->
+    <include name="riseos/riseos-vendor.xml" />
+
+    <!-- Include forked CAF projects -->
+    <include name="riseos/riseos-caf.xml" />
+
+    <!-- Include OSS projects -->
+    <include name="riseos/oss.xml" />
+
+    <!-- Include Sony devices -->
+    <include name="riseos/sony.xml" />
+
+    <!-- Include Sony legacy devices -->
+    <include name="riseos/sony-legacy.xml" />
+
+    <!-- Include opengapps -->
+    <!--<include name="opengapps.xml" />-->
+
+</manifest>

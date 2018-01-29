@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <remote name="RiseOS"
+             fetch="https://github.com/RiseOS/" />
+    <remote name="NXP"
+             fetch="https://github.com/NXPNFCProject/" />
+
+    <!-- QCOM OSS -->
+    <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom-opensource_dataservices" groups="device" remote="RiseOS" revision="master" />
+    <project path="vendor/qcom/opensource/location" name="vendor_qcom-opensource_location" groups="device" remote="RiseOS" revision="master" />
+
+    <!-- Sony OSS -->
+    <project path="vendor/sony/oss/fingerprint" name="vendor_sony_oss_fingerprint" groups="device" remote="RiseOS" revision="master" />
+    <project path="vendor/sony/oss/init" name="vendor_sony_oss_init" groups="device" remote="RiseOS" revision="master" />
+    <project path="vendor/sony/oss/macaddrsetup" name="vendor_sony_oss_macaddrsetup" groups="device" remote="RiseOS" revision="master" />
+    <project path="vendor/sony/oss/thermanager" name="vendor_sony_oss_thermanager" groups="device" remote="RiseOS" revision="master" />
+    <project path="vendor/sony/oss/timekeep" name="vendor_sony_oss_timekeep" groups="device" remote="RiseOS" revision="master" />
+
+    <project path="packages/apps/ExtendedSettings" name="platform_packages_apps_ExtendedSettings" groups="device" remote="RiseOS" revision="master" />
+    <project path="packages/apps/FMRadio" name="platform_packages_apps_FMRadio" groups="device" remote="RiseOS" revision="master" />
+
+    <project path="vendor/brodacom/wlan" name="vendor_broadcom_wlan" groups="device" remote="RiseOS" revision="master" />
+    <project path="vendor/nxp" name="vendor_nxp" groups="device" remote="RiseOS" revision="master" />
+    <project path="vendor/nxp/NXPNFCC_FW" name="NXPNFCC_FW" groups="device" remote="NXP" revision="master" />
+
+    <project path="vendor/oss/json-c" name="json-c" groups="device" remote="RiseOS" revision="master" />
+
+</manifest>

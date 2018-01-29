@@ -1,4 +1,4 @@
-# Sony Xperia M4 Aqua AOSP #
+# Rise OS #
 
 ### Installing Repo ###
 
@@ -30,7 +30,7 @@ $ cd ~/android
 
 # Install Repo in the created directory
 # Use a real name/email combination, if you intend to submit patches
-$ repo init -u https://github.com/SonyM4/platform_manifest -b android-8.1
+$ repo init -u https://github.com/RiseOS/platform_manifest -b android-8.1
 ```
 
 ### Downloading the source tree ###
@@ -46,7 +46,7 @@ $ repo sync -j8 --current-branch --no-clone-bundle --no-tags
 
 ## Building ##
 
-Now you are ready to build AOSP images that can be flashed to a device.
+Now you are ready to build Rise OS images that can be flashed to a device.
 To do this, you have to point out your specific device and then start building the images.
 
 ```bash

@@ -619,9 +619,5 @@
   <project path="tools/tradefederation/contrib" name="platform/tools/tradefederation/contrib" groups="pdk,tradefed" />
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
-  <include name="aosp/untracked.xml" />
-  <include name="aosp/aosp.xml" />
-  <include name="aosp/sony.xml" />
-  <include name="aosp/sony-legacy.xml" />
-  <!--<include name="aosp/opengapps.xml" />-->
+  <include name="riseos/main.xml" />
 </manifest>
