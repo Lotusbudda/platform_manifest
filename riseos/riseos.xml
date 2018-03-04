@@ -44,6 +44,9 @@
     <project path="hardware/qcom/keymaster" name="platform_hardware_qcom_keymaster" groups="qcom,qcom_keymaster,pdk" remote="RiseOS" revision="android-8.1" />
     <project path="hardware/qcom/media" name="platform_hardware_qcom_media" groups="qcom,pdk" remote="RiseOS" revision="android-8.1" />
 
+    <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" groups="pdk-fs" remote="RiseOS" revision="android-8.1" />  
+    <project path="packages/apps/Music" name="platform/packages/apps/Music" groups="pdk-fs" remote="RiseOS" revision="android-8.1" />
+    <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" groups="pdk-fs" remote="RiseOS" revision="android-8.1" />
     <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="RiseOS" revision="android-8.1" />
     <project path="packages/apps/Settings" name="platform_packages_apps_Settings" groups="pdk-fs" remote="RiseOS" revision="android-8.1" />
 
