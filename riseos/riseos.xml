@@ -14,11 +14,6 @@
         <linkfile src="tools" dest="build/tools" />
     </project>
 
-    <project path="build/soong" name="platform_build_soong" groups="pdk,tradefed" remote="RiseOS" revision="android-8.1" >
-        <linkfile src="root.bp" dest="Android.bp" />
-        <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
-    </project>
-
     <project path="bionic" name="platform_bionic" groups="pdk" remote="RiseOS" revision="android-8.1" />
     
     <project path="bootable/recovery" name="platform_bootable_recovery" groups="pdk" remote="RiseOS" revision="android-8.1" />
@@ -26,22 +21,15 @@
     <project path="external/busybox" name="platform_external_busybox" groups="pdk" remote="RiseOS" revision="android-8.1" />
     <project path="external/exfat" name="platform_external_exfat" groups="pdk" remote="RiseOS" revision="android-8.1" />
     <project path="external/libfuse" name="platform_external_libfuse" groups="pdk" remote="RiseOS" revision="android-8.1" />
-    <project path="external/tinycompress" name="platform_external_tinycompress" groups="pdk" remote="RiseOS" revision="android-8.1" />
-    <project path="external/toybox" name="platform_external_toybox" groups="pdk" remote="RiseOS" revision="android-8.1" />
-    <project path="external/wpa_supplicant_8" name="platform_external_wpa_supplicant_8" groups="pdk" remote="RiseOS" revision="android-8.1" />
 
     <project path="frameworks/av" name="platform_frameworks_av" groups="pdk" remote="RiseOS" revision="android-8.1" />
     <project path="frameworks/base" name="platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="RiseOS" revision="android-8.1" />
-	<project path="frameworks/native" name="platform_frameworks_native" groups="pdk" remote="RiseOS" revision="android-8.1" />
-    <project path="frameworks/support" name="platform_frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="RiseOS" revision="android-8.1" />
-
-    <project path="hardware/interfaces" name="platform_hardware_interfaces" groups="pdk" remote="RiseOS" revision="android-8.1" />
+    <project path="frameworks/native" name="platform_frameworks_native" groups="pdk" remote="RiseOS" revision="android-8.1" />
 
     <project path="hardware/qcom/audio" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="RiseOS" revision="android-8.1" />
     <project path="hardware/qcom/bt" name="platform_hardware_qcom_bt" groups="qcom,pdk" remote="RiseOS" revision="android-8.1" />
     <project path="hardware/qcom/display" name="platform_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="RiseOS" revision="android-8.1" />
     <project path="hardware/qcom/gps" name="platform_hardware_qcom_gps" groups="qcom,qcom_gps,pdk" remote="RiseOS" revision="android-8.1" />
-    <project path="hardware/qcom/keymaster" name="platform_hardware_qcom_keymaster" groups="qcom,qcom_keymaster,pdk" remote="RiseOS" revision="android-8.1" />
     <project path="hardware/qcom/media" name="platform_hardware_qcom_media" groups="qcom,pdk" remote="RiseOS" revision="android-8.1" />
 
     <project path="packages/apps/Gallery" name="platform_packages_apps_Gallery" groups="pdk-fs" remote="RiseOS" revision="android-8.1" />  
@@ -49,12 +37,8 @@
     <project path="packages/apps/MusicFX" name="platform_packages_apps_MusicFX" groups="pdk-fs" remote="RiseOS" revision="android-8.1" />
     <project path="packages/apps/Settings" name="platform_packages_apps_Settings" groups="pdk-fs" remote="RiseOS" revision="android-8.1" />
 
-    <project path="packages/providers/DownloadProvider" name="platform_packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="RiseOS" revision="android-8.1" />
     <project path="packages/providers/MediaProvider" name="platform_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="RiseOS" revision="android-8.1" />
 
-    <project path="packages/services/Telephony" name="platform_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="RiseOS" revision="android-8.1" />
-
-    <project path="system/bt" name="platform_system_bt" groups="pdk" remote="RiseOS" revision="android-8.1" />
     <project path="system/core" name="platform_system_core" groups="pdk" remote="RiseOS" revision="android-8.1" />
     <project path="system/vold" name="platform_system_vold" groups="pdk" remote="RiseOS" revision="android-8.1" />
 

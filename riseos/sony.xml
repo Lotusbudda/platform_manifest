@@ -7,17 +7,26 @@
              fetch="https://github.com/NXPNFCProject/" />
 
     <!-- Kernel -->
-    <project path="kernel/sony/msm" name="kernel" groups="device" remote="RiseOS" revision="aosp/LA.UM.5.7.r1" />
+    <project path="kernel/sony/msm-4.4" name="kernel" groups="device" remote="RiseOS" revision="aosp/LA.UM.6.4.r1" />
 
     <!-- Sony Camera HAL -->
-    <project path="hardware/qcom/camera" name="platform_hardware_qcom_camera" groups="qcom" remote="RiseOS" revision="aosp/LA.UM.5.7.r1" />
+    <project path="hardware/qcom/camera" name="platform_hardware_qcom_camera" groups="qcom" remote="RiseOS" revision="aosp/LA.UM.6.4.r1" />
 
     <project path="device/sony/sepolicy" name="device_sony_sepolicy" groups="device" remote="RiseOS" revision="android-8.1" />
     <project path="device/sony/common" name="device_sony_common" groups="device" remote="RiseOS" revision="android-8.1" />
+
+    <!-- msm8939 -->
+    <project path="device/sony/kanuti" name="device_sony_kanuti" groups="device" remote="RiseOS" revision="android-8.1" />
+    <project path="device/sony/tulip" name="device_sony_tulip" groups="device" remote="RiseOS" revision="android-8.1" />
 
     <!-- msm8956 -->
     <project path="device/sony/loire" name="device_sony_loire" groups="device" remote="RiseOS" revision="android-8.1" />
     <project path="device/sony/kugo" name="device_sony_kugo" groups="device" remote="RiseOS" revision="android-8.1" />
     <project path="device/sony/suzu" name="device_sony_suzu" groups="device" remote="RiseOS" revision="android-8.1" />
+
+    <!-- sdm845 -->
+    <project path="device/sony/tama" name="device_sony_tama" groups="device" remote="sony" revision="android-8.1" />
+    <project path="device/sony/akari" name="device_sony_akari" groups="device" remote="sony" revision="android-8.1" />
+    <project path="device/sony/apollo" name="device_sony_apollo" groups="device" remote="sony" revision="android-8.1" />
 
 </manifest>
