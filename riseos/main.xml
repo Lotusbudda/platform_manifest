@@ -13,8 +13,8 @@
     <!-- Include Sony devices -->
     <include name="riseos/sony.xml" />
 
-    <!-- Include Sony legacy devices -->
-    <include name="riseos/sony-legacy.xml" />
+    <!-- Include Sony legacy devices
+    <include name="riseos/sony-legacy.xml" /> -->
 
     <!-- Include opengapps -->
     <!--<include name="opengapps.xml" />-->

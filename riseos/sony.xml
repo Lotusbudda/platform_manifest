@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-    <remote  name="RiseOS"
+    <remote name="RiseOS"
              fetch="https://github.com/RiseOS/" />
-    <remote name="NXP"
-             fetch="https://github.com/NXPNFCProject/" />
 
-    <!-- Kernel -->
-    <project path="kernel/sony/msm-4.4" name="kernel" groups="device" remote="RiseOS" revision="aosp/LA.UM.6.4.r1" />
+    <!-- Kernel 4.4 -->
+    <project path="kernel/sony/msm-4.4" name="kernel_sony_msm" groups="device" remote="RiseOS" revision="aosp/LA.UM.6.4.r1" />
+    <project path="kernel/sony/msm-4.4/drivers/staging/wlan-qc/fw-api" name="vendor-qcom-opensource-wlan-fw-api" groups="device" remote="RiseOS" revision="aosp/LA.UM.6.4.r1" />
+    <project path="kernel/sony/msm-4.4/drivers/staging/wlan-qc/qca-wifi-host-cmn" name="vendor-qcom-opensource-wlan-qca-wifi-host-cmn" groups="device" remote="RiseOS" revision="aosp/LA.UM.6.4.r1" />
+    <project path="kernel/sony/msm-4.4/drivers/staging/wlan-qc/qcacld-3.0" name="vendor-qcom-opensource-wlan-qcacld-3.0" groups="device" remote="RiseOS" revision="aosp/LA.UM.6.4.r1" />
+
+    <!-- Kernel 4.9 -->
+    <project path="kernel/sony/msm-4.9" name="kernel_sony_msm" groups="device" remote="RiseOS" revision="aosp/LE.UM.2.3.2.r1.4" />
+    <project path="kernel/sony/msm-4.9/drivers/staging/wlan-qc/fw-api" name="vendor-qcom-opensource-wlan-fw-api" groups="device" remote="RiseOS" revision="aosp/LE.UM.2.3.2.r1.4" />
+    <project path="kernel/sony/msm-4.9/drivers/staging/wlan-qc/qca-wifi-host-cmn" name="vendor-qcom-opensource-wlan-qca-wifi-host-cmn" groups="device" remote="RiseOS" revision="aosp/LE.UM.2.3.2.r1.4" />
+    <project path="kernel/sony/msm-4.9/drivers/staging/wlan-qc/qcacld-3.0" name="vendor-qcom-opensource-wlan-qcacld-3.0" groups="device" remote="RiseOS" revision="aosp/LE.UM.2.3.2.r1.4" />
 
     <!-- Sony Camera HAL -->
     <project path="hardware/qcom/camera" name="platform_hardware_qcom_camera" groups="qcom" remote="RiseOS" revision="aosp/LA.UM.6.4.r1" />
@@ -24,9 +31,14 @@
     <project path="device/sony/kugo" name="device_sony_kugo" groups="device" remote="RiseOS" revision="android-8.1" />
     <project path="device/sony/suzu" name="device_sony_suzu" groups="device" remote="RiseOS" revision="android-8.1" />
 
+    <!-- sdm630 -->
+    <project path="device/sony/nile" name="device_sony_nile" groups="device" remote="RiseOS" revision="android-8.1" />
+    <project path="device/sony/discovery" name="device_sony_discovery" groups="device" remote="RiseOS" revision="android-8.1" />
+    <project path="device/sony/pioneer" name="device_sony_pioneer" groups="device" remote="RiseOS" revision="android-8.1" />
+
     <!-- sdm845 -->
-    <project path="device/sony/tama" name="device_sony_tama" groups="device" remote="sony" revision="android-8.1" />
-    <project path="device/sony/akari" name="device_sony_akari" groups="device" remote="sony" revision="android-8.1" />
-    <project path="device/sony/apollo" name="device_sony_apollo" groups="device" remote="sony" revision="android-8.1" />
+    <project path="device/sony/tama" name="device_sony_tama" groups="device" remote="RiseOS" revision="android-8.1" />
+    <project path="device/sony/akari" name="device_sony_akari" groups="device" remote="RiseOS" revision="android-8.1" />
+    <project path="device/sony/apollo" name="device_sony_apollo" groups="device" remote="RiseOS" revision="android-8.1" />
 
 </manifest>

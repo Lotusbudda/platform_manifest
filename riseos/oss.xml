@@ -5,22 +5,30 @@
              fetch="https://github.com/RiseOS/" />
     <remote name="NXP"
              fetch="https://github.com/NXPNFCProject/" />
+    <remote name="sony"
+             fetch="https://github.com/sonyxperiadev/" />
 
     <!-- QCOM OSS -->
     <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom-opensource_dataservices" groups="device" remote="RiseOS" revision="master" />
+    <project path="vendor/qcom/opensource/interfaces" name="vendor-qcom-opensource-interfaces" groups="device" remote="sony" revision="aosp/LA.UM.6.3.r1" >
+        <copyfile dest="vendor/qcom/opensource/Android.bp" src="os_pickup.bp" />
+    </project>
     <project path="vendor/qcom/opensource/location" name="vendor_qcom-opensource_location" groups="device" remote="RiseOS" revision="master" />
 
     <!-- Sony OSS -->
+    <project path="vendor/sony/oss/cash" name="vendor_sony_oss_cash" groups="device" remote="RiseOS" revision="master" />
     <project path="vendor/sony/oss/fingerprint" name="vendor_sony_oss_fingerprint" groups="device" remote="RiseOS" revision="master" />
-    <project path="vendor/sony/oss/init" name="vendor_sony_oss_init" groups="device" remote="RiseOS" revision="master" />
+    <!-- <project path="vendor/sony/oss/init" name="vendor_sony_oss_init" groups="device" remote="RiseOS" revision="master" /> -->
     <project path="vendor/sony/oss/macaddrsetup" name="vendor_sony_oss_macaddrsetup" groups="device" remote="RiseOS" revision="master" />
     <project path="vendor/sony/oss/thermanager" name="vendor_sony_oss_thermanager" groups="device" remote="RiseOS" revision="master" />
     <project path="vendor/sony/oss/timekeep" name="vendor_sony_oss_timekeep" groups="device" remote="RiseOS" revision="master" />
+    <project path="vendor/sony/oss/transpower" name="vendor_sony_oss_transpower" groups="device" remote="RiseOS" revision="master" />
 
     <project path="packages/apps/ExtendedSettings" name="platform_packages_apps_ExtendedSettings" groups="device" remote="RiseOS" revision="master" />
 
-    <project path="vendor/brodacom/wlan" name="vendor_broadcom_wlan" groups="device" remote="RiseOS" revision="master" />
+    <project path="vendor/broadcom/wlan" name="vendor_broadcom_wlan" groups="device" remote="RiseOS" revision="master" />
     <project path="vendor/nxp" name="vendor_nxp" groups="device" remote="RiseOS" revision="master" />
     <project path="vendor/nxp/NXPNFCC_FW" name="NXPNFCC_FW" groups="device" remote="NXP" revision="master" />
+    <project path="vendor/oss/release-keys" name="release-keys" remote="sony" revision="master" />
 
 </manifest>
