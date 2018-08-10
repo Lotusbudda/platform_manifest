@@ -18,7 +18,6 @@
     
     <project path="bootable/recovery" name="platform_bootable_recovery" groups="pdk" remote="RiseOS" revision="android-8.1" />
 
-    <project path="external/busybox" name="platform_external_busybox" groups="pdk" remote="RiseOS" revision="android-8.1" />
     <project path="external/exfat" name="platform_external_exfat" groups="pdk" remote="RiseOS" revision="android-8.1" />
     <project path="external/libfuse" name="platform_external_libfuse" groups="pdk" remote="RiseOS" revision="android-8.1" />
 
