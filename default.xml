@@ -4,7 +4,7 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
-  <default revision="refs/tags/android-8.1.0_r40"
+  <default revision="refs/tags/android-8.1.0_r46"
            remote="aosp"
            sync-j="4" />
 
@@ -621,6 +621,6 @@
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
-  <include name="riseos/main.xml" />
+  <include name="RiseOS/main.xml" />
 
 </manifest>

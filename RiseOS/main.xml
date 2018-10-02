@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- Remove unused AOSP projects -->
+<!--    <include name="RiseOS/remove.xml" />-->
+
+    <!-- Include forked AOSP projects -->
+<!--    <include name="RiseOS/riseos.xml" />-->
+
+    <!-- Include Sony devices -->
+    <include name="RiseOS/sony.xml" />
+</manifest>
