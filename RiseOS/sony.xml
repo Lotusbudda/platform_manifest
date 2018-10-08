@@ -1,26 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-    <remote name="RiseOS"
-             fetch="https://github.com/RiseOS/" />
+  <remote name="RiseOS"
+          fetch="https://github.com/RiseOS/" />
 
-    <!-- Kanuti 4.9 kernel -->
-    <project path="kernel/sony/msm8939-4.9" name="kernel_sony_msm8939" groups="device" remote="RiseOS" revision="LE.UM.2.3.3.r1-00600-QCS605.0" />
+  <!-- Kanuti 4.9 kernel -->
+  <project path="kernel/sony/msm8939-4.9" name="kernel_sony_msm8939" groups="device" remote="RiseOS" revision="aosp/LA.UM.7.8.r1" />
 
-    <!-- Kernel 4.9 -->
-    <!--<project path="kernel/sony/msm-4.9" name="kernel_sony_msm" groups="device" remote="RiseOS" revision="aosp/LE.UM.2.3.2.r1.4" />
-    <project path="kernel/sony/msm-4.9/drivers/staging/wlan-qc/fw-api" name="vendor-qcom-opensource-wlan-fw-api" groups="device" remote="RiseOS" revision="aosp/LE.UM.2.3.2.r1.4" />
-    <project path="kernel/sony/msm-4.9/drivers/staging/wlan-qc/qca-wifi-host-cmn" name="vendor-qcom-opensource-wlan-qca-wifi-host-cmn" groups="device" remote="RiseOS" revision="aosp/LE.UM.2.3.2.r1.4" />
-    <project path="kernel/sony/msm-4.9/drivers/staging/wlan-qc/qcacld-3.0" name="vendor-qcom-opensource-wlan-qcacld-3.0" groups="device" remote="RiseOS" revision="aosp/LE.UM.2.3.2.r1.4" />
-    -->
+  <!-- Kernel 4.9 -->
+  <!--<project path="kernel/sony/msm-4.9" name="kernel_sony_msm" groups="device" remote="RiseOS" revision="aosp/LE.UM.2.3.2.r1.4" />
+  <project path="kernel/sony/msm-4.9/drivers/staging/wlan-qc/fw-api" name="vendor-qcom-opensource-wlan-fw-api" groups="device" remote="RiseOS" revision="aosp/LE.UM.2.3.2.r1.4" />
+  <project path="kernel/sony/msm-4.9/drivers/staging/wlan-qc/qca-wifi-host-cmn" name="vendor-qcom-opensource-wlan-qca-wifi-host-cmn" groups="device" remote="RiseOS" revision="aosp/LE.UM.2.3.2.r1.4" />
+  <project path="kernel/sony/msm-4.9/drivers/staging/wlan-qc/qcacld-3.0" name="vendor-qcom-opensource-wlan-qcacld-3.0" groups="device" remote="RiseOS" revision="aosp/LE.UM.2.3.2.r1.4" />
+  -->
 
-    <!-- Sony Camera HAL -->
-    <!--<project path="hardware/qcom/camera" name="platform_hardware_qcom_camera" groups="qcom" remote="RiseOS" revision="aosp/LA.UM.6.4.r1" />-->
+  <!-- Sony Camera HAL -->
+  <!--<project path="hardware/qcom/camera" name="platform_hardware_qcom_camera" groups="qcom" remote="RiseOS" revision="aosp/LA.UM.6.4.r1" />-->
 
-    <project path="device/sony/sepolicy" name="device_sony_sepolicy" groups="device" remote="RiseOS" revision="android-8.1_dev" />
-    <project path="device/sony/common" name="device_sony_common" groups="device" remote="RiseOS" revision="android-8.1_dev" />
+  <project path="device/sony/sepolicy" name="device_sony_sepolicy" groups="device" remote="RiseOS" revision="android-8.1_dev" />
+  <project path="device/sony/common" name="device_sony_common" groups="device" remote="RiseOS" revision="android-8.1_dev" />
 
-    <!-- msm8939 -->
-    <project path="device/sony/kanuti" name="device_sony_kanuti" groups="device" remote="RiseOS" revision="android-8.1_dev" />
-    <project path="device/sony/tulip" name="device_sony_tulip" groups="device" remote="RiseOS" revision="android-8.1_dev" />
+  <!-- msm8939 -->
+  <project path="device/sony/kanuti" name="device_sony_kanuti" groups="device" remote="RiseOS" revision="android-8.1_dev" />
+  <project path="device/sony/tulip" name="device_sony_tulip" groups="device" remote="RiseOS" revision="android-8.1_dev" />
+
 </manifest>
