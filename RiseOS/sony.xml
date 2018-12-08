@@ -32,6 +32,8 @@
   <project path="device/sony/maple" name="device_sony_maple" groups="device" remote="RiseOS" revision="android-9.0" />
   <project path="device/sony/poplar" name="device_sony_poplar" groups="device" remote="RiseOS" revision="android-9.0" />
 
+  <project path="hardware/qcom/display/msmfb" name="platform_hardware_qcom_display_msmfb" groups="pdk-qcom,qcom,qcom_display" remote="RiseOS" revision="aosp/LA.UM.6.3.r1" />
+  <project path="hardware/qcom/display/sde" name="platform_hardware_qcom_display_sde" groups="pdk-qcom,qcom,qcom_display" remote="RiseOS" revision="aosp/LA.UM.7.3.r1" />
   <project path="hardware/sony/camera" name="platform_hardware_sony_camera" groups="device" remote="RiseOS" revision="aosp/LA.UM.6.4.r1" />
   <project path="hardware/sony/cash" name="platform_hardware_sony_cash" groups="device" remote="RiseOS" revision="master" />
   <project path="hardware/sony/dataservices" name="platform_hardware_sony_dataservices" groups="device" remote="RiseOS" revision="master" />
