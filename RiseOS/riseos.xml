@@ -51,6 +51,7 @@
   <project path="packages/apps/SnapdragonGallery" name="platform_packages_apps_SnapdragonGallery" groups="pdk-fs" remote="RiseOS" revision="android-9.0" />
   <project path="packages/apps/SnapdragonMusic" name="platform_packages_apps_SnapdragonMusic" groups="pdk-fs" remote="RiseOS" revision="android-9.0" />
 
+  <project path="packages/providers/CalendarProvider" name="platform_packages_providers_CalendarProvider" groups="pdk-cw-fs,pdk-fs" remote="RiseOS" revision="android-9.0" />
   <project path="packages/providers/TelephonyProvider" name="platform_packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" remote="RiseOS" revision="android-9.0" />
 
   <project path="system/core" name="platform_system_core" groups="pdk" remote="RiseOS" revision="android-9.0" />
