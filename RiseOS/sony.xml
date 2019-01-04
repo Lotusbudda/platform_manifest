@@ -41,7 +41,7 @@
   <project path="hardware/sony/interfaces" name="platform_hardware_sony_interfaces" groups="device" remote="RiseOS" revision="aosp/LA.UM.7.3.r1" />
   <project path="hardware/sony/location" name="platform_hardware_sony_location" groups="device" remote="RiseOS" revision="p-mr0" />
   <project path="hardware/sony/macaddrsetup" name="platform_hardware_sony_macaddrsetup" groups="device" remote="RiseOS" revision="master" />
-  <project path="hardware/sony/projection" name="platform_hardware_sony_projection" groups="device" remote="RiseOS" revision="master" />
+  <!--<project path="hardware/sony/projection" name="platform_hardware_sony_projection" groups="device" remote="RiseOS" revision="master" />-->
   <project path="hardware/sony/qcrilam" name="platform_hardware_sony_qcrilam" groups="device" remote="RiseOS" revision="master" />
   <project path="hardware/sony/timekeep" name="platform_hardware_sony_timekeep" groups="device" remote="RiseOS" revision="master" />
   <project path="hardware/sony/transpower" name="platform_hardware_sony_transpower" groups="device" remote="RiseOS" revision="master" />
