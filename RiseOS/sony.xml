@@ -4,7 +4,7 @@
   <remote name="RiseOS"
           fetch="https://github.com/RiseOS/" />
 
-  <!-- Sony 4.9 kernel -->
+  <!-- Sony 4.9 common kernel -->
   <project path="kernel/sony/msm-4.9" name="kernel_sony_msm" groups="device" remote="RiseOS" revision="aosp/LE.UM.2.3.2.r1.4" />
   <project path="kernel/sony/msm-4.9/drivers/staging/wlan-qc/fw-api" name="vendor-qcom-opensource-wlan-fw-api" groups="device" remote="RiseOS" revision="aosp/LA.UM.7.3.r1" />
   <project path="kernel/sony/msm-4.9/drivers/staging/wlan-qc/qca-wifi-host-cmn" name="vendor-qcom-opensource-wlan-qca-wifi-host-cmn" groups="device" remote="RiseOS" revision="aosp/LA.UM.7.3.r1" />
@@ -16,6 +16,7 @@
   <project path="device/sony/sepolicy" name="device_sony_sepolicy" groups="device" remote="RiseOS" revision="android-9.0" />
 
   <!-- msm8956 -->
+  <project path="kernel/sony/msm8956-4.9" name="kernel_sony_msm8956" groups="device" remote="RiseOS" revision="LA.UM.7.8.r1" />
   <project path="device/sony/loire" name="device_sony_loire" groups="device" remote="RiseOS" revision="android-9.0" />
   <project path="device/sony/kugo" name="device_sony_kugo" groups="device" remote="RiseOS" revision="android-9.0" />
   <project path="device/sony/suzu" name="device_sony_suzu" groups="device" remote="RiseOS" revision="android-9.0" />
