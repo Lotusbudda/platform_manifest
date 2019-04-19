@@ -30,7 +30,7 @@ $ cd ~/android
 
 # Install Repo in the created directory
 # Use a real name/email combination, if you intend to submit patches
-$ repo init -u https://github.com/RiseOS/platform_manifest -b android-9.0
+$ repo init -u https://github.com/RiseOS/platform_manifest -b android-q-preview-2.5
 ```
 
 ### Downloading the source tree ###
