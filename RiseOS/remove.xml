@@ -6,6 +6,8 @@
 
   <remove-project name="platform/bionic" />
 
+  <remove-project name="platform/bootable/recovery" />
+
   <remove-project name="device/generic/arm64" />
   <remove-project name="device/generic/armv7-a-neon" />
   <remove-project name="device/generic/car" />
