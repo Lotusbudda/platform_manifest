@@ -4,6 +4,9 @@
   <remote name="RiseOS"
           fetch="https://github.com/RiseOS/" />
 
+  <!-- Sony kernel build barrier -->
+  <project path="kernel/sony" name="kernel_sony" groups="device" remote="RiseOS" revision="android-9.0" />
+
   <!-- Sony 4.9 common kernel -->
   <project path="kernel/sony/msm-4.9" name="kernel_sony_msm" groups="device" remote="RiseOS" revision="aosp/LE.UM.2.3.2.r1.4" />
   <project path="kernel/sony/msm-4.9/drivers/staging/wlan-qc/fw-api" name="vendor-qcom-opensource-wlan-fw-api" groups="device" remote="RiseOS" revision="aosp/LA.UM.7.3.r1" />
