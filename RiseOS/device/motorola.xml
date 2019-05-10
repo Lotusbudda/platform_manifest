@@ -1,4 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+<remote name="github" fetch="https://github.com/" />
+
+<!--Payton-->
+<project path="device/motorola/payton" name="device_motorola_payton" groups="device" remote="RiseOS" revision="android-9.0_wip" />
+<project path="device/motorola/sdm660-common" name="device_motorola_sdm660-common" groups="device" remote="RiseOS" revision="android-9.0_wip" />
+
+<project path="kernel/motorola/msm8998" name="kernel_motorola_msm8998" groups="device" remote="RiseOS" revision="android-9.0_wip" />
+
+<project path="vendor/motorola" name="TheMuppets/proprietary_vendor_motorola" groups="device" remote="github" revision="lineage-16.0" />
+
+<!--HALs-->
+<!-- <project path="hardware/qcom/audio" name="LineageOS/android_hardware_qcom_audio" groups="pdk-qcom,qcom,qcom_display" remote="github" revision="lineage-16.0"/> -->
+
+<!--LineageOS dependencies-->
+<project path="device/qcom/sepolicy" name="LineageOS/android_device_qcom_sepolicy" groups="device" remote="github" revision="lineage-16.0" />
+<project path="system/qcom" name="LineageOS/android_system_qcom" groups="device" remote="github" revision="lineage-16.0" />
+<project path="vendor/codeaurora/telephony" name="LineageOS/android_vendor_codeaurora_telephony" groups="device" remote="github" revision="lineage-16.0" />
+
 </manifest>
