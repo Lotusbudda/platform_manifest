@@ -33,6 +33,7 @@
   <project path="hardware/nxp/nfc" name="platform_hardware_nxp_nfc" groups="pdk" remote="RiseOS" revision="android-9.0" />
   <project path="hardware/qcom/audio" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="RiseOS" revision="android-9.0" />
   <project path="hardware/qcom/bootctrl" name="platform_hardware_qcom_bootctrl" groups="pdk-qcom" remote="RiseOS" revision="android-9.0" />
+  <project path="hardware/qcom/display/aosp" name="platform_hardware_qcom_display" groups="pdk-qcom" remote="RiseOS" revision="android-9.0" />
   <project path="hardware/qcom/sdm845/data/ipacfg-mgr" name="platform_hardware_qcom_sdm845_data_ipacfg-mgr" groups="vendor,qcom_sdm845" remote="RiseOS" revision="android-9.0" >
     <linkfile src="os_pickup.mk" dest="hardware/qcom/sdm845/Android.mk" />
     <linkfile dest="hardware/qcom/sdm845/Android.bp" src="os_pickup.bp" />
