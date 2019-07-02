@@ -9,6 +9,7 @@
 
   <!-- Include devices -->
   <include name="RiseOS/device/motorola.xml" />
+  <include name="RiseOS/device/samsung.xml" />
   <include name="RiseOS/device/sony.xml" />
 
 </manifest>
