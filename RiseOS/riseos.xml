@@ -24,6 +24,4 @@
   <project path="system/bt" name="platform_system_bt" groups="pdk" remote="RiseOS" revision="android-8.1_dev" />
   <project path="system/core" name="platform_system_core" groups="pdk" remote="RiseOS" revision="android-8.1_dev" />
 
-  <project path="vendor/riseos" name="vendor_riseos" groups="device" remote="RiseOS" revision="android-8.1_dev" />
-
 </manifest>
